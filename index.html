@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Undangan Pernikahan</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">Tentang Kami</a></li>
+          <li><a href="#gallery">Galeri</a></li>
+          <li><a href="#rsvp">RSVP</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="home" class="home-section">
+      <div class="slider">
+        <img src="image/image.png" alt="Image 1" class="slide" />
+        <img src="image/image2.png" alt="Image 2" class="slide" />
+        <img src="image/image3.png" alt="Image 3" class="slide" />
+      </div>
+      <button class="play-button" onclick="playAudio()">Putar Lagu</button>
+      <audio id="background-audio" src="audio.mp3"></audio>
+    </section>
+
+    <section id="about" class="about-section">
+      <h2>Tentang Kami</h2>
+      <p>Pasangan bahagia yang akan menikah...</p>
+    </section>
+
+    <section id="gallery" class="gallery-section">
+      <h2>Galeri</h2>
+    </section>
+
+    <section id="rsvp" class="rsvp-section">
+      <h2>RSVP</h2>
+      <p>Silakan konfirmasi kehadiran Anda...</p>
+      <button class="rsvp-button">RSVP Sekarang</button>
+    </section>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
